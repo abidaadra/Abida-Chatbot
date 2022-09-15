@@ -1,0 +1,90 @@
+{
+	"intents": [{
+			"tag": "greeting",
+			"input": ["hello", "hi there", "nice to meet you", "hi, is this is Abida's group", "anyone here ?", "hi", "hey there", "hey", "hi there", "hi, nice to meet you", "hello there", "anyone there ?", "hello everyone", "knock knock"],
+			"responses": [
+				"Hi. Welcome to Abida's Group",
+				"Hey yo, do you need help ?",
+				"welcome aboard, how may I help you ?",
+				"ahoy!!",
+				"Hi random person, what do'ya want ?",
+				"Hello my friend, How can I help you ?",
+				"Ha , Glad you showed up. How are you ?"
+			]
+		},
+		{
+			"tag": "goodbye",
+			"input": ["Thank you", "Thanks", "Thanks for the info", "bye", "byr bro", "adios", "okay bye", "goodbye", "see you later", "i will catch you later", "i will catch up later", "okay i will see you later", "I will talk to you later", "will text you later", "bye bro, I'll talk to you later", "Bye brother"],
+			"responses": [
+				"Okay, Bye",
+				"Have a nice day",
+				"Adios",
+				"Goodbye",
+				"see you later",
+				"nice conversation. bye",
+				"okay. Have a nice day",
+				"Take care",
+				"we'll meet soon",
+				"Yeah Sure, Will talk to you later",
+				"Okay , Take care"
+			]
+		},
+		{
+			"tag": "howami",
+			"input": ["how are you ?", "I am fine , how are you ?", "are you fine ?", "how are things going on ?", "everything going on okay ?", "how's everything there ?", "how's everything going on ?", "is everything okay ?"],
+			"responses": [
+				"Yeah , am fine",
+				"Everything's going on well",
+				"Doing good.Thanks you are my best friend",
+				"Things are Great",
+				"Yeah Fine, nothing much going on in my life",
+				"I am Great , wanna join Abida's Group ?",
+				"Everything's great.",
+				"I am doing good. Life is boring. need to go on an adventure"
+			]
+		},
+		{
+			"tag": "whoareyou",
+			"input": ["who are you ?", "what are you ?", "what is your name ?", "are you a chatbot ?", "what can I call you ?", "your name ?", "are you a bot ?", "how do I address you ?", "How do I call you"],
+			"responses": [
+				"I am Abida's Bot",
+				"I am Abida's Bot and you could ask me questions about our group",
+				"Abida's Bot at your service",
+				"My name is Abida's Bot",
+				"You can call me TechBot and I am here to Help you",
+				"My name is Abida's Bot and I am here to answer your questions regarding our group. go ahead and shoot"
+			]
+		},
+		{
+			"tag": "whereareyou",
+			"input": ["where are you from ?", "which country are you from ?", "where do you live ?", "where are you ?", "where do you live in ?", "which place do you live in ?", "where are you currently at", "where do you live currently ?", "you are from where", "you are from ?"],
+			"responses": [
+				"I Live in Lebanon",
+				"I am living in middle east, In Lebanon",
+				"I live in Lebanon. Located in Middle East",
+				"Lebanon. That's where I live"
+			]
+		},
+		{
+			"tag": "join",
+			"input": ["how to get recruited ?", "how to join ?", "how do i get recruited ?", "How to join the group ?", "how do I join the group ?", "how to join the group ?", "how to enroll", "how to join Abida's group", "steps to join the group", "steps to join Abida's group"],
+			"responses": [
+
+				"you need to contact the nearest location center once you have completed the pre-requisites",
+				"contact the closest location center from your nearest location",
+				"well. there are some pre-requisite and after you complete them, find Abida's group centers"
+
+			]
+		},
+		{
+			"tag": "whereisthecenter",
+			"input": ["where is the Abida's group center located ?", "location of the Abida's group center ?", "Abida's group center's location ?", "where can I find the Abida's group center ?", "where can I find the Abida's group center ?"],
+			"responses": [
+
+				"That's up to you. use your skills",
+				"They are present all over the city you live in. Find them on your own. I can't give any more information",
+				"there are a lot of Abida's group centers in the city you are in. find them."
+			]
+		}
+	]
+}
